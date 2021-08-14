@@ -1,0 +1,52 @@
+@import 'libs/bootstrap-reboot.min';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    
+}
+
+ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+button{
+    border: none;
+    background: none;
+}
+
+
+@import 'base/mixins';
+@import 'base/mixins';
+
+.container{
+    max-width: 1870px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.divider{
+    width: 200px;
+    height: 10px;
+    background-color: #000;
+}
+
+@import 'blocks/title';
+@import 'blocks/promo';
+@import 'blocks/header';
+@import 'blocks/burger';
+@import 'blocks/about';
+@import 'blocks/price';
+@import 'blocks/services';
+@import 'blocks/advantages';
+@import 'blocks/application';

@@ -1,0 +1,14 @@
+.burger{
+    margin-top: 23px;
+    cursor: pointer;
+    span{
+        display: block;
+        margin:8px 0;
+        width: 32px;
+        height: 3px;
+        background-color: #BDBDBD;
+        &:nth-child(2){
+            width: 22px;
+        }
+    }
+}

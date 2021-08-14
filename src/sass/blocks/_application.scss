@@ -1,0 +1,47 @@
+.application{
+    padding: 75px 0 28px 0;
+    border-top: 1px solid #BDBDBD;
+    border-bottom: 1px solid #BDBDBD;
+    &-grid{
+        margin-top: 100px;
+        display: grid;
+        grid-template-columns: repeat(3, 387px);
+        column-gap: 82px;
+        row-gap: 140px;
+        justify-content: center;
+        &__item-wrapper{
+            display: flex;
+            align-items: center;
+            span{
+                display: inline-block;
+                font-weight: 500;
+                font-size: 64px;
+                line-height: 93px;
+                color: #000;
+            }
+
+        }
+        &__subtitle{
+            text-align: center;
+            min-width: 163px;
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 37px;
+            color: #000;
+            background-color: #FAFF09;
+        }
+    }
+    &__btn-wrapper{
+        margin-top: 26px;
+        margin-left: 255px;
+    }
+    &__button{
+        width: 510px;
+        height: 112px;
+        border: 1px solid #000000;
+        font-weight: 300;
+        line-height: 42px;
+        font-size: 36px;
+        color: #000;
+    }
+}

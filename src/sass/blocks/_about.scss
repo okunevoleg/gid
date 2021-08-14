@@ -1,0 +1,30 @@
+.about{
+    margin-top: 45px;
+    padding: 37px 0 20px 0;
+    &__wrapper{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        justify-items: center;
+    }
+    &-items{
+        &__title{
+            font-weight: 400;
+            font-size: 64px;
+            line-height: 75px;
+        }
+        &__item{
+            margin-left: 35px;
+            list-style-type: square;
+            font-weight: 400;
+            font-size: 28px;
+            line-height: 32px;           
+        }
+        &__descr{
+            margin-left: 35px;
+            margin-top: 16px;
+            font-weight: 300;
+            color: #0e0e0e;
+            line-height: 21px;
+        }
+    }
+}

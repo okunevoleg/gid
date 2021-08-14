@@ -1,0 +1,10 @@
+.header{
+    padding: 15px 0;
+    &__wrapper{
+        display: flex;
+        justify-content: space-around;
+    }
+    &__tel{
+        margin-top: 38px;
+    }
+}
